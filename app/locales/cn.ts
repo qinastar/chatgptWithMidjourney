@@ -4,7 +4,7 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized:
-      "访问密码不正确或为空，请前往[设置](/#/settings)页输入正确的访问密码，或者填入你自己的 OpenAI API Key。",
+      "检测到未填写APIKEY, 请点击左下角[设置](/#/settings)按钮输入自己的APIKEY。\n您可在[商店](https://shop.yuina.cn/)购买ChatGPT账号并使用其中的APIKEY。\n请先查看[使用指南](https://staryui.com/chatgpt)！",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
@@ -192,7 +192,8 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
+    BotHello:
+      "有什么可以帮你的喵？使用教程可点击左下角[指南](https://staryui.com/chatgpt)图标查看喵~",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) =>
