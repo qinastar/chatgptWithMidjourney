@@ -8,10 +8,10 @@ const buildConfig = getBuildConfig();
 
 export const metadata = {
   title: "星之悦AI",
-  description: "你的私人镜像站点",
+  description: "探索未来",
   appleWebApp: {
     title: "星之悦AI",
-    statusBarStyle: "你的私人镜像站点",
+    statusBarStyle: "探索未来",
   },
   viewport: "width=device-width, initial-scale=1, maximum-scale=1",
 };
