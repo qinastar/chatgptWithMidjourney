@@ -7,10 +7,10 @@ import { getBuildConfig } from "./config/build";
 const buildConfig = getBuildConfig();
 
 export const metadata = {
-  title: "星之悦AI",
+  title: "StarYui AI",
   description: "探索未来",
   appleWebApp: {
-    title: "星之悦AI",
+    title: "StarYui AI",
     statusBarStyle: "探索未来",
   },
   viewport: "width=device-width, initial-scale=1, maximum-scale=1",
