@@ -200,7 +200,7 @@ const cn = {
   Store: {
     DefaultTopic: "新的聊天",
     BotHello:
-      "有什么可以帮你的喵？本网站支持MJ绘图。使用教程可点击左下角[指南](https://staryui.com/chatgpt)查看喵~",
+      "有什么可以帮你的喵？本网站支持MJ绘图。使用教程可点击左下角[指南](https://staryui.com/chatgpt)查看喵~\n\n05-22：本站快速绘图已经耗尽，将使用默认速度绘图。如果显示timeout或者不出图，请检查[设置](/#/settings)中是否启用了快速绘图，将它关闭",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) =>
