@@ -4,7 +4,7 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized:
-      "**检测到未填写APIKEY**\n请点击左下角[设置](/#/settings)按钮输入自己的APIKEY。\n\n请查看[指南](https://staryui.com/chatgpt/)获取访问码或者使用自己账号的APIKEY，也可以选择购买账号获得APIKEY。\n\n[QQ群: 744197295](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=cTk7tw6GiEfJ69lV2wfK4A1kTx8bqcuY&authKey=h5HGO9yXACGBVRWEXpuS3X2Ax2%2F5hDv9RLav9SnIwEXyQLLRB85YasfQwbwDz5pI&noverify=0&group_code=744197295)可免费使用机器人",
+      "**检测到未填写APIKEY**\n请点击左下角[设置](/#/settings)按钮输入自己的APIKEY。\n\n请查看[指南](https://staryui.com/chatgpt/)获取访问码或者使用自己账号的APIKEY，也可以选择购买账号获得APIKEY。\n\n[QQ群: 782469742](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=ePOo3luI9oru7lV_kORL0pYfHEQc9e8A&authKey=xVo465G5B1BQSDK2Y6qNmO%2FZuSAk3MAbBPITiZKBTRXnyBzv%2BzuEMkmZ8jD8t%2FB%2B&noverify=0&group_code=782469742)可免费使用机器人",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
