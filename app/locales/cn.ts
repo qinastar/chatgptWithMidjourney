@@ -159,7 +159,7 @@ const cn = {
     },
 
     MjProxyUrl: {
-      name: "MJ 反向代理",
+      name: "MJ 图片反向代理",
       Placeholder: "包含http(s)//",
     },
 

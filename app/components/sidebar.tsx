@@ -123,9 +123,10 @@ export function SideBar(props: { className?: string }) {
       <div className={styles["sidebar-header"]}>
         <div className={styles["sidebar-title"]}>StarYui AI</div>
         <div className={styles["sidebar-sub-title"]}>
-          Mindful thoughts shared under starry skies,
-          <br />
-          StarYui AI by your side.
+          Powered by{" "}
+          <a href="https://staryui.com/" target="_blank">
+            StarYui
+          </a>
         </div>
         {/* <div className={styles["sidebar-logo"] + " no-dark"}>
         <ChatGptIcon/>
