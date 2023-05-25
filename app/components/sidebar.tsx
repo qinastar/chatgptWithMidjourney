@@ -121,13 +121,15 @@ export function SideBar(props: { className?: string }) {
       }`}
     >
       <div className={styles["sidebar-header"]}>
-        <div className={styles["sidebar-title"]}>StarYui AI</div>
-        <div className={styles["sidebar-sub-title"]}>
+        <img src="/logoai1.png" width="300px" />
+        {/* <div className={styles["sidebar-title"]}>AI</div> */}
+        <div className={styles["sidebar-title"]}></div>
+        {/* <div className={styles["sidebar-sub-title"]}>
           Powered by{" "}
           <a href="https://staryui.com/" target="_blank">
             StarYui
           </a>
-        </div>
+        </div> */}
         {/* <div className={styles["sidebar-logo"] + " no-dark"}>
         <ChatGptIcon/>
         </div> */}
@@ -141,13 +143,13 @@ export function SideBar(props: { className?: string }) {
           onClick={() => navigate(Path.NewChat, { state: { fromHome: true } })}
           shadow
         />
-        <IconButton
+        {/* <IconButton
           icon={<PluginIcon />}
           text={shouldNarrow ? undefined : Locale.Plugin.Name}
           className={styles["sidebar-bar-button"]}
           onClick={() => showToast(Locale.WIP)}
           shadow
-        />
+        /> */}
       </div>
 
       <div
@@ -160,7 +162,6 @@ export function SideBar(props: { className?: string }) {
       >
         <ChatList narrow={shouldNarrow} />
       </div>
-
       <div className={styles["sidebar-tail"]}>
         <div className={styles["sidebar-actions"]}>
           <div className={styles["sidebar-action"] + " " + styles.mobile}>
