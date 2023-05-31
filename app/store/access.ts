@@ -42,7 +42,7 @@ export const useAccessStore = create<AccessControlStore>()(
       midJourneyAPI: "/api/midjourney/",
       midJourneyKey: "",
       midJourneyAPIURL: "",
-      mjMode: true,
+      mjMode: false,
       proxyUrl: "",
 
       enabledAccessControl() {
