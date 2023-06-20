@@ -4,7 +4,7 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized:
-      "**检测到未填写APIKEY**\n请点击左下角[设置](/#/settings)按钮输入自己的APIKEY。\n\n请查看[指南](https://staryui.com/chatgpt/)获取访问码或者使用自己账号的APIKEY，也可以选择购买账号获得APIKEY。\n\n[QQ群: 782469742](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=ePOo3luI9oru7lV_kORL0pYfHEQc9e8A&authKey=xVo465G5B1BQSDK2Y6qNmO%2FZuSAk3MAbBPITiZKBTRXnyBzv%2BzuEMkmZ8jD8t%2FB%2B&noverify=0&group_code=782469742)可免费使用机器人",
+      "**检测到未填写APIKEY**\n请点击左下角[设置](/#/settings)按钮输入自己的APIKEY。\n\n请查看[指南](https://staryui.com/chatgpt/)获取访问码或者使用自己账号的APIKEY。\n\n[QQ群: 782469742](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=ePOo3luI9oru7lV_kORL0pYfHEQc9e8A&authKey=xVo465G5B1BQSDK2Y6qNmO%2FZuSAk3MAbBPITiZKBTRXnyBzv%2BzuEMkmZ8jD8t%2FB%2B&noverify=0&group_code=782469742)",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
@@ -200,7 +200,7 @@ const cn = {
   Store: {
     DefaultTopic: "新的聊天",
     BotHello:
-      "有什么可以帮你的喵？本网站支持MJ绘图。使用教程可点击左下角[指南](https://staryui.com/chatgpt)查看喵~\n\n05-22：本站快速绘图已经耗尽，将使用默认速度绘图。如果显示timeout或者不出图，请检查[设置](/#/settings)中是否启用了快速绘图，将它关闭",
+      "有什么可以帮你的喵？本网站支持MJ绘图。使用教程可点击左下角[指南](https://staryui.com/chatgpt)查看喵~\n\n05-22：本站快速绘图已经耗尽，将使用默认速度绘图。如果显示timeout或者不出图，请检查[设置](/#/settings)中是否启用了快速绘图，将它关闭\n\n[QQ群: 782469742](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=ePOo3luI9oru7lV_kORL0pYfHEQc9e8A&authKey=xVo465G5B1BQSDK2Y6qNmO%2FZuSAk3MAbBPITiZKBTRXnyBzv%2BzuEMkmZ8jD8t%2FB%2B&noverify=0&group_code=782469742)",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) =>
