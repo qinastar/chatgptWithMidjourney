@@ -143,7 +143,7 @@ const cn = {
 
     MjKey: {
       Title: "MJ API Key",
-      SubTitle: "快捷配置MJ API Key",
+      SubTitle: "使用自己的 MJ Key 可绕过密码访问限制",
       Placeholder: "Midjourney API Key",
     },
 
