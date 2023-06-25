@@ -552,7 +552,7 @@ export function Settings() {
               }}
             />
           </ListItem>
-          {/* <ListItem title={Locale.Settings.MjMode.name}>
+          <ListItem title={Locale.Settings.MjMode.name}>
             <input
               type="checkbox"
               checked={accessStore.mjMode}
@@ -560,7 +560,7 @@ export function Settings() {
                 accessStore.updateMJMode(e.currentTarget.checked)
               }
             ></input>
-          </ListItem> */}
+          </ListItem>
           {/* <ListItem title={Locale.Settings.MjProxyUrl.name}>
             <input
               type="input"
