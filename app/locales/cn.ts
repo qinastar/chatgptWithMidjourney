@@ -234,7 +234,7 @@ const cn = {
   Store: {
     DefaultTopic: "新的聊天",
     BotHello:
-      "有什么可以帮你的喵？本网站支持MJ绘图。使用教程可点击左下角[指南](https://staryui.com/chatgpt)查看喵~\n\n[QQ群: 782469742](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=ePOo3luI9oru7lV_kORL0pYfHEQc9e8A&authKey=xVo465G5B1BQSDK2Y6qNmO%2FZuSAk3MAbBPITiZKBTRXnyBzv%2BzuEMkmZ8jD8t%2FB%2B&noverify=0&group_code=782469742)",
+      "有什么可以帮你的喵？本网站支持MJ绘图。",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
