@@ -120,19 +120,16 @@ export function SideBar(props: { className?: string }) {
         shouldNarrow && styles["narrow-sidebar"]
       }`}
     >
-      <div className={styles["sidebar-header"]}>
-        <img src="/logoai1.png" width="300px" />
-        {/* <div className={styles["sidebar-title"]}>AI</div> */}
-        <div className={styles["sidebar-title"]}></div>
-        {/* <div className={styles["sidebar-sub-title"]}>
-          Powered by{" "}
-          <a href="https://staryui.com/" target="_blank">
-            StarYui
-          </a>
-        </div> */}
-        {/* <div className={styles["sidebar-logo"] + " no-dark"}>
-        <ChatGptIcon/>
-        </div> */}
+      <div className={styles["sidebar-header"]} data-tauri-drag-region>
+        <div className={styles["sidebar-title"]} data-tauri-drag-region>
+          ChatGPT Next
+        </div>
+        <div className={styles["sidebar-sub-title"]}>
+          Build your own AI assistant.
+        </div>
+        <div className={styles["sidebar-logo"] + " no-dark"}>
+          <ChatGptIcon />
+        </div>
       </div>
 
       <div className={styles["sidebar-header-bar"]}>
